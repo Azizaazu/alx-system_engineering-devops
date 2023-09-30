@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Displays 'Best School' in stdout 10 times, Displays Hi on the 9th
+
+idx=0
+
+while [ $idx -lt 10 ]
+do
+  if [ $idx -eq 9 ]
+  then
+    echo "Hi"
+  fi
+  echo "Best School"
+  (( idx++ ))
+done
