@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# displays the content of the current directory in a certain format.
+
+li=$(ls)
+for fi in $li
+do
+    find "$fi" | cut -d- -f2
+done
