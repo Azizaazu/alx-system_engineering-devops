@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Returns information about his/her TODO list progress and exports data in JSON format."""
+"""Returns information about his/her TODO 
+list progress and exports data in JSON format."""
 
 import requests
 import sys
