@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-"""Returns information about his/her TODO 
-list progress and exports data in JSON format."""
-
+"""Returns information on list progress and exports data in JSON"""
+import json
 import requests
 import sys
-import json
 
 if __name__ == "__main__":
     url = "https://jsonplaceholder.typicode.com/"
