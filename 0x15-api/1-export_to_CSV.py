@@ -1,11 +1,8 @@
 #!/usr/bin/python3
 """ export data in the CSV format. """
-
 import csv
 import requests
 from sys import argv
-
-
 def exportToCSV(userId):
     url_tasks = "https://jsonplaceholder.typicode.com/users/{}/todos"\
             .format(userId)
